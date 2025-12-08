@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/dustjs159/gitops-local-test.git
-    targetRevision: main
+    targetRevision: master
     path: charts/argocd
   destination:
     server: https://kubernetes.default.svc

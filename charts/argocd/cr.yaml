@@ -8,7 +8,7 @@ spec:
   generators:
     - git:
         repoURL: https://github.com/dustjs159/gitops-local-test.git
-        revision: main
+        revision: master
         directories:
           - path: charts/harbor 
   template:
@@ -26,7 +26,7 @@ spec:
               - $values/charts/harbor/values.yaml
         # Git repo (values)
         - repoURL: https://github.com/dustjs159/gitops-local-test.git
-          targetRevision: main
+          targetRevision: master
           ref: values
       destination:
         server: https://kubernetes.default.svc
