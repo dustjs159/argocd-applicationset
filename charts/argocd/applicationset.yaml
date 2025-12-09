@@ -7,7 +7,7 @@
 #   goTemplate: true
 #   generators:
 #     - git:
-#         repoURL: https://github.com/dustjs159/gitops-local-test.git
+#         repoURL: https://github.com/dustjs159/argocd-applicationset.git
 #         revision: master
 #         directories:
 #           - path: charts/harbor 
@@ -25,7 +25,7 @@
 #             valueFiles:
 #               - $values/charts/harbor/values.yaml
 #         # Git repo (values)
-#         - repoURL: https://github.com/dustjs159/gitops-local-test.git
+#         - repoURL: https://github.com/dustjs159/argocd-applicationset.git
 #           targetRevision: master
 #           ref: values
 #       destination:

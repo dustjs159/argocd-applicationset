@@ -8,7 +8,7 @@
 # spec:
 #   project: default
 #   source:
-#     repoURL: https://github.com/dustjs159/gitops-local-test.git
+#     repoURL: https://github.com/dustjs159/argocd-applicationset.git
 #     targetRevision: master
 #     path: charts/argocd
 #   destination:
